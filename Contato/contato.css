@@ -1,3 +1,62 @@
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: #1981c7;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: #1946a9;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
 header{
     background-color: #BBBBBB;
     padding: 20px 0px;
@@ -73,8 +132,6 @@ nav a:hover{
 
 .produtos li:hover{
     border-color:  #1981c7;;
-    transform: rotate(10deg);
-    transition: 1s all;
 }
 
 .produtos li:active{
@@ -87,7 +144,7 @@ nav a:hover{
 
 footer{
     text-align: center;
-    background: url(./img/backgroundFooter.jpg);
+    background: url(../img/backgroundFooter.jpg);
     padding: 40px 0;
 }
 

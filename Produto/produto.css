@@ -73,8 +73,6 @@ nav a:hover{
 
 .produtos li:hover{
     border-color:  #1981c7;;
-    transform: rotate(10deg);
-    transition: 1s all;
 }
 
 .produtos li:active{
@@ -87,7 +85,7 @@ nav a:hover{
 
 footer{
     text-align: center;
-    background: url(./img/backgroundFooter.jpg);
+    background: url(../img/backgroundFooter.jpg);
     padding: 40px 0;
 }
 
